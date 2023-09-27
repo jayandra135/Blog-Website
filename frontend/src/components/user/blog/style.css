@@ -1,0 +1,115 @@
+.banner-blog {
+    background-image: url("../../../images/blogbanner.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+/* blog content */
+.blog-content {
+    margin-top: 5%;
+}
+
+.blogCard {
+    border-radius: 20px;
+}
+
+.blogdiv {
+    padding: 15px;
+}
+
+.blogdiv h4 {
+    font-size: 1rem;
+    text-align: center;
+
+}
+
+.blogdiv p {
+    font-size: 1rem;
+    text-align: center;
+
+}
+
+.buttondiv {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.buttondiv Button {
+    background-color: #794f29;
+    border: none;
+}
+
+.blogimage {
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+}
+
+/* single blog */
+.single-blog-section {
+    margin-top: 5%;
+
+}
+
+.singleBlog {
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    height: auto;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.singleBlog h4 {
+    font-weight: 500;
+    font-style: normal;
+}
+
+.singleBlog p {
+    text-align: justify;
+    font-style: italic;
+}
+
+.singleImage {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 20px;
+}
+
+.singleBlog h5 {
+    color: blueviolet;
+    text-transform: capitalize;
+}
+
+.singleBlog h6 {
+    color: grey0;
+
+}
+
+/* media query */
+@media screen and (max-width: 576px) {
+    .banner-blog {
+        background-image: url("../../../images/blogbanner.jpg");
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 200px;
+    }
+
+    .singleImage {
+        width: 100%;
+        height: 200px;
+        float: none;
+        margin-right: 20px;
+
+
+    }
+
+    .singleBlog {
+        height: auto;
+
+    }
+}

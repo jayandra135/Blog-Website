@@ -1,0 +1,45 @@
+.navbar-section {
+    background-color: #111315;
+
+}
+
+.navbarBrand {
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+
+.navbar-toggler-icon {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-brand:hover,
+.navbar-brand:active,
+.nav-link:hover,
+.nav-link:active {
+    color: white;
+}
+
+.navbar-brand:link,
+.navbar-brand:visited,
+.nav-link:link,
+.nav-link:visited {
+    color: white !important;
+}
+
+/* footer */
+.footer {
+    margin-top: 5%;
+    background-color: #111315;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
